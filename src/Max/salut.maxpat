@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-190",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 83.0, 736.0, 150.0, 34.0 ],
+					"style" : "",
+					"text" : "107 - 50.51 en haut 99.7 5.5 ici"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-259",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3834,8 +3847,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7507,13 +7520,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-155" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-218" : [ "live.gain~[7]", "live.gain~[7]", 0 ],
+			"obj-205" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
 			"obj-16" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-170" : [ "live.gain~[9]", "live.gain~[8]", 0 ],
-			"obj-155" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
 			"obj-7" : [ "live.step", "live.step", 0 ],
 			"obj-164" : [ "live.gain~[8]", "live.gain~[8]", 0 ],
-			"obj-205" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
-			"obj-218" : [ "live.gain~[7]", "live.gain~[7]", 0 ],
 			"obj-206" : [ "live.gain~[6]", "live.gain~[5]", 0 ]
 		}
 ,
@@ -7633,8 +7646,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

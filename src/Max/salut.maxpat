@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-454",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1418.5, 270.0, 82.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 74."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-447",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -476,7 +489,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 970.0, 517.0, 107.0, 22.0 ],
 					"style" : "",
-					"text" : "scale -1. 1. 0. -20."
+					"text" : "scale -1. 1. 0. -25."
 				}
 
 			}
@@ -502,7 +515,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 796.0, 517.0, 107.0, 22.0 ],
 					"style" : "",
-					"text" : "scale -1. 1. -20. 0."
+					"text" : "scale -1. 1. -25. 0."
 				}
 
 			}
@@ -5416,7 +5429,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 100.0, 0, 0.0, 1994.666626, 0, 457.446808, 1145.333374, 0, 1585.106323, 753.333313, 0, 1957.446777, 100.0, 0 ],
+					"addpoints" : [ 0.0, 100.0, 0, 0.0, 1014.666687, 0, 457.446808, 1145.333374, 0, 1585.106323, 753.333313, 0, 1957.446777, 100.0, 0 ],
 					"domain" : 2000.0,
 					"id" : "obj-20",
 					"maxclass" : "function",
@@ -8706,6 +8719,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-438", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-454", 0 ]
 				}
 
 			}
